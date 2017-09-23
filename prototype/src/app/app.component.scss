@@ -1,0 +1,54 @@
+.app-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+    background-image: linear-gradient(45deg, #5D3E6E, #C38AAF);
+    color: white;
+    align-content: center;
+    height: 3.5em;
+    // .menu-button {
+    //     height: 100%;
+    // }
+    .menu-icon {
+        font-size: 2em;
+    }
+}
+.left-nav {
+    width: 33%;
+}
+.right-nav {
+    width: 66%;
+}
+
+
+.example-sidenav-fab-container {
+    width: 66%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-fab-container md-sidenav {
+    max-width: 33%;
+  }
+  
+  .example-sidenav-fab-container .mat-sidenav-content,
+  .example-sidenav-fab-container md-sidenav {
+    display: flex;
+    overflow: visible;
+  }
+  
+  .example-scrolling-content {
+    overflow: auto;
+    height: 100%;
+  }
+  
+  .example-fab.mat-mini-fab {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+  }
+  
